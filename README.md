@@ -1,6 +1,8 @@
 **Software artifact accompanying the paper "Using Extended Logical Primitives for
 Efficient BDD Building" submitted to the IEEE Access journal**
 
+## Artifact
+
 The artifact has been tested on Linux and macOS.
 
 It requires recent versions of flex, bison and gperf. In macOS you can get then using brew or mac ports. You can get them in Linux by typing:
@@ -55,5 +57,9 @@ After running runAll.sh, you will find several files in the directories correspo
 [name]-XOR.ord      -- The variables in the system as ordered by the static heuristic to start building the BDD
 
 [name]-XOR.dddmp    -- The BDD for the extended translation in dddmp format
+
+## Acknowledgements
+
+This software artifact has been funded by the Spanish Ministry of Science and Innovation, under grant with reference DPI2016-77677-P.
 
 
